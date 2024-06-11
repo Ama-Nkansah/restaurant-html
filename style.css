@@ -1,0 +1,301 @@
+html{
+    background-color: #F8F4E1;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  @media(max-width:600px){
+    /*for screens below or equal to 600px wide*/
+   nav{display:none;}
+}
+
+div.yantra{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:760px 50px ;
+    gap: 20px;
+}
+div.yantra .aesthetic-space>img{
+    border-radius:6%;
+    height: 18cm;
+    width: 20cm;
+    position: relative;
+}
+
+div.yantra div>h1{
+    font-family: "DM Serif Text", serif;
+  font-weight: 500;
+  font-style:italic; 
+  font-size:3rem;
+  position: absolute;
+  z-index: 2;
+  top:260px;
+  left: 90px;
+  color:beige;
+  text-shadow: 1px 1px 0 black, /* top border */
+               -1px 1px 0 black, /* bottom border */
+               1px -1px 0 black, /* left border */
+               -1px -1px 0 black; /* right border */
+}
+
+div.yantra div>h2{
+  font-family: "Reenie Beanie", ;
+  font-weight: 500;
+  font-style:normal; 
+  font-size:2rem;
+  position: absolute;
+  z-index: 2;
+  top:340px;
+  left: 140px;
+  color:black;
+  text-shadow: 1px 1px 0 beige, /* top border */
+               -1px 1px 0  beige, /* bottom border */
+               1px -1px 0 beige, /* left border */
+               -1px -1px 0 beige; /* right border */
+}
+
+
+body div#images>img#four{
+    border-radius:30%;
+    height: 6cm;
+    width:9cm;
+    border: 2px solid #3D1F01;
+    margin: 4%;
+}
+
+body div#images>img#one{ 
+ border-radius:30%;
+ height: 6cm;
+ width: 9cm ;
+ border: 2px solid #3D1F01;
+ margin: 9%;
+ position: relative;
+ left: -15px;
+}
+
+
+body div#images>img#two{ 
+ border-radius:30%;
+ height: 6cm;
+ width: 9cm ;
+ border: 2px solid #3D1F01;
+ margin: 4%;
+ position: relative;
+ left: 19px;
+ top: -20px;
+}
+
+
+body div#images>img#three{ 
+ border-radius:30%;
+ height: 8cm;
+ width:8cm ;
+ border: 2px solid #3D1F01;
+ margin: 4%;
+ position: relative;
+ left: 19px;
+ top: -30px;
+}
+
+
+body div#images>img{
+    float: left;
+}
+.yantra nav>ul{
+    overflow: hidden;
+    background-color:#F8F4E1;
+    list-style: none;
+}
+.yantra nav>ul .mine{
+    float:left;
+    display:flex;
+    color: brown;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    margin: 6px;
+    justify-content: space-between;
+    background-color: #FED8B1;
+    height: 30px;
+    flex:1;
+    border: 2px solid black;
+
+}
+
+.yantra nav>ul .mine:hover{
+    background-color: #ddd;
+    color: black;
+}
+ 
+.yantra hr{
+    width: 600px;
+}
+
+.yantra nav>ul .mine:active{
+    background-color: burlywood;
+    color: white;
+}
+
+body .mission{
+float:left;
+position: absolute;
+text-align: center;
+}
+
+body .mission>h1{
+    font-family:"Reenie Beanie", cursive;
+    font-size: 3rem;
+    position: relative;
+    left: 1000px;
+    top: -750px;
+    background-color: #3D1F01;
+    left: 800px;
+    border: 1px dashed;
+    color: #F8F4E1;
+    text-shadow: 1px 1px 0 black, /* top border */
+               -1px 1px 0 black, /* bottom border */
+               1px -1px 0 black, /* left border */
+               -1px -1px 0 black; /* right border */
+}
+
+body .mission>p{
+    font-family:"Reenie Beanie", cursive;
+    font-size: 3rem;
+    position: relative;
+    left: 800px;
+    top: -780px;
+    background-color:#FED8B1;
+    border: 1px solid;
+    display: block;
+    height:15.7cm ;
+}
+
+div#images{
+    background-color: #ccbbab;
+    position: absolute;
+    width: 500px;
+    border-radius: 1%;
+    display: block;
+    width: 750px;
+}
+
+div#images h1{
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:black;
+  text-shadow: 1px 1px 0 bisque, /* top border */
+               -1px 1px 0 bisque, /* bottom border */
+               1px -1px 0 bisque, /* left border */
+               -1px -1px 0 bisque; /* right border */
+
+}
+
+div#images p{
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  text-shadow: 
+  1px 1px 0 bisque, /* top border */
+  -1px 1px 0 beige, /* bottom border */
+  1px -1px 0 beige, /* left border */
+  -1px -1px 0 beige; /* right border */
+
+}
+
+div#images p#meal{
+    position: relative;
+    top: 260px;
+    left: -375px;
+}
+div#images p#snack{
+    position: relative;
+    top: 500px;
+    left: -360px;
+}
+div#images p#drinks{
+    position: relative;
+    top: 750px;
+    left: -360px;
+}
+
+div#images p#starters{
+    position: relative;
+    top: 1030px;
+    left: -380px;
+}
+div.words>p{
+ position: relative;
+ left: 850px;
+ top: -10px;
+ font-family: "Reenie Beanie", ;
+  font-weight: 500;
+  font-style:normal; 
+  font-size:2rem;
+  color:black;
+}
+
+div.words img{
+    position: relative;
+    left: 800px;
+    top: 50px;
+    width: 800px;
+    height: 800px;
+    margin: 8px;
+    border-radius: 2%;
+    
+}
+footer{
+    position: relative;
+    left:800px;
+    top: 80px;
+}
+
+h2#extra{
+    position: absolute;
+    background-color: #ccbbab;
+    left: 1130px;
+    display: inline-block;
+    font-size: 50px;
+    top:1670px;
+    border: 3px dashed whitesmoke;
+
+
+}
+
+i.fa-brands.fa-instagram{
+    font-size: 70px;
+    color: black;
+    position: absolute;
+    left: 1000px;
+    top: 2000px;
+}
+
+i.fa-solid.fa-phone{
+    font-size: 70px;
+    color: black;
+    position: absolute;
+    left: 1150px;
+    top: 2000px;
+}
+
+i.fa-solid.fa-envelope{
+    font-size: 70px;
+    color: black;
+    position: absolute;
+    left: 1300px;
+    top: 2000px;
+}
+
+h1#know-us{
+    position: absolute;
+    left: 1150px;
+    display: inline;
+    font-size: px;
+    top:2080px;
+}
